@@ -9,7 +9,7 @@
   "author": "Victor Batischev <vitek.batishev97@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://github.com/victorbatischev/taxidispatcher-clientapp-server.git"
+    "url": "https://github.com/victorbatischev/taxidispatcher-drivers-server.git"
   },
   "license": "ISC",
   "dependencies": {

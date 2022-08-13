@@ -10,7 +10,7 @@ var http = require('http'),
     cookie: { maxAge: 60000 }
   }),
   socketsParams = {},
-  custom = require('./drivers_custom'),
+  custom = require('./config'),
   dbCommon = require('./db')
 
 //sharedsession = require("express-socket.io-session");
@@ -55,7 +55,6 @@ var config = custom.config
 
 app.get('/', function (req, res) {
   req.session.message = 'Hello World'
-  console.log('kkk')
 })
 
 function findClientsSocket(roomId, namespace) {
@@ -942,7 +941,6 @@ io.sockets.on('connection', function (socket) {
       if (tp) data = tp
     }
 
-    //console.log('cancel orders '+data.phone);
     if (true) {
       var request2 = new sql.Request(connection)
       request2.query(
