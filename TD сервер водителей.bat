@@ -1,0 +1,1 @@
+node C:\Users\user\Documents\Projects\TaxiDispatcher\taxidispatcher-drivers-server\index.js TIMEOUT /T 10 /NOBREAK 
